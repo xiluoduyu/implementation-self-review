@@ -1,6 +1,6 @@
 # Implementation Self Review
 
-A Codex skill for compact engineering self-review after an implementation pass.
+An agent skill for compact engineering self-review after an implementation pass.
 
 Use it before final delivery, or when an implementation needs a focused check for responsibility boundaries, unnecessary abstractions, defensive branches, naming clarity, test intent, documentation iteration scope, and same-class issues.
 
@@ -19,7 +19,7 @@ Use it before final delivery, or when an implementation needs a focused check fo
 
 ## Installation
 
-Clone this repository into your Codex skills directory:
+Clone this repository into your agent's skills directory. For Codex, use:
 
 ```bash
 git clone https://github.com/xiluoduyu/implementation-self-review.git ~/.codex/skills/implementation-self-review
