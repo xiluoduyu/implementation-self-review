@@ -147,6 +147,17 @@ For tests added or changed, ask:
 
 Prefer behavior-focused tests that explain why the rule exists.
 
+### Code And Documentation Alignment Gate
+
+When code changes behavior, contracts, configuration, API shape, defaults, or operational expectations, ask:
+
+1. Do current-fact docs describe the implemented behavior, not an older or planned behavior?
+2. Do tests encode the same contract described by the docs?
+3. Are examples, commands, config names, API names, and error semantics consistent across code, tests, and docs?
+4. If docs were not updated, is that because the change does not affect user-visible or operator-visible behavior?
+
+Prefer keeping code, tests, and current-fact docs aligned over treating documentation as a separate cleanup task.
+
 ### Same-Class Scan Gate
 
 When the user points out one issue, scan for the same class before editing:

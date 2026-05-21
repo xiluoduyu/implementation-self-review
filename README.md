@@ -2,7 +2,7 @@
 
 An agent skill for compact engineering self-review after an implementation pass.
 
-Use it before final delivery, or when an implementation needs a focused check for responsibility boundaries, unnecessary abstractions, defensive branches, naming clarity, test intent, documentation iteration scope, and same-class issues.
+Use it before final delivery, or when an implementation needs a focused check for responsibility boundaries, unnecessary abstractions, defensive branches, naming clarity, test intent, code/documentation alignment, documentation iteration scope, and same-class issues.
 
 ## When To Use
 
